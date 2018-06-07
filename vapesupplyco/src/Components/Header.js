@@ -32,7 +32,7 @@ return (
           <div className="category-wrap dropdown py-1">
             <button type="button" className="btn btn-light  dropdown-toggle" data-toggle="dropdown"><i className="fa fa-bars" /> Browse Categories</button>
             <div className="dropdown-menu">
-              <a className="dropdown-item" href="#">E-Liquids / 30 ML / 50 - 60 ML / 120 - 130 ML </a>
+              <a className="dropdown-item" href="#">E-Juices / 30 ML / 50 - 60 ML / 120 - 130 ML </a>
               <a className="dropdown-item" href="#">Hardware / E-Cigs Kits / Combo's / Batteries / Mods / Tanks / RDA &amp; RDTA </a>
               <a className="dropdown-item" href="#">Coils / Aspire / E-Leaf / Joytech / Prebuilt Coils / Smok Coils / Other Brands</a>
               <a className="dropdown-item" href="#">Accessories / Wire &amp; Building Tools / Driptips / Charging / Replacement Glass / Apparel </a>
