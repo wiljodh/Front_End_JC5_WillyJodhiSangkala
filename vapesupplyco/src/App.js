@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import Content from './Components/Content';
+import Homepage from './Components/Homepage';
 import Footer from './Components/Footer';
+import Register from './Components/Register';
+
 
 class App extends Component {
   render() {
@@ -11,7 +14,8 @@ class App extends Component {
 
       <div>
         <Header />
-        <Content />
+        <Route exact path="/Homepage" component={Homepage}/>
+        <Route  path="/Register" component={Register}/>
         <Footer />
       </div>
       

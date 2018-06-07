@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+
 class Header extends Component {
 
 render() {
@@ -10,13 +13,13 @@ return (
         <header className="section-header">
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
-      <a className="navbar-brand" href="#"><img className="logo" src="images/logos/logo.jpg" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme" /></a>
+      <Link to = "/Homepage"className="navbar-brand"><img className="logo" src="images/logos/logo.jpg" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme" /></Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarTop">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item"><a href="index.html" className="nav-link" data-toggle>HOME</a></li>
+          <li className="nav-item"><Link to = "/Homepage" className="nav-link" data-toggle>HOME</Link></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>SHOP</a></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>ABOUT</a></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>CONTACT</a></li>
@@ -83,7 +86,7 @@ return (
                     <button type="submit" className="btn btn-primary">Sign in</button>
                   </form>
                   <hr className="dropdown-divider" />
-                  <a className="dropdown-item" href="register.html">Dont Have account? Sign up</a>
+                  <Link to = "/Register" className="dropdown-item">Dont Have account? Sign Up</Link>
                   <a className="dropdown-item" href="#">Forgot password?</a>
                 </div> {/*  dropdown-menu .// */}
               </div>  {/* widget-header .// */}
