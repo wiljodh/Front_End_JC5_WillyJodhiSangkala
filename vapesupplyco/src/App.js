@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Register from './Components/Register';
 import Login from './Components/Login';
 import ForgotAccount from './Components/ForgotAccount';
+import MyCart from './Components/MyCart';
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Route  path="/Register" component={Register}/>
         <Route  path="/Login" component={Login}/>
         <Route  path="/ForgotAccount" component={ForgotAccount}/>
+        <Route  path="/MyCart" component={MyCart}/>
         <Footer />
       </div>
       

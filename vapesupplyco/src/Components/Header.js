@@ -92,14 +92,16 @@ return (
               </div>  {/* widget-header .// */}
             </div> {/* col.// */}
             <div className="col-auto">
-              <a href="index.html" className="widget-header">
+              <Link to = "/MyCart" className="widget-header">
                 <div className="icontext">
                   <div className="icon-wrap"><i className="text-warning icon-sm fa fa-shopping-cart" /></div>
                   <div className="text-wrap text-dark">
+                  <span className="small round badge badge-secondary">2</span>
+                  <br/>  
                     My Cart 
                   </div>
                 </div>
-              </a>
+              </Link>
             </div> {/* col.// */}
             <div className="col-auto">
               <a href="#" className="widget-header">
