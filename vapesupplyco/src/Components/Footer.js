@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+
 class Footer extends Component {
 
 render() {
@@ -21,8 +24,8 @@ return (
           <aside className="col-sm-3  col-md-3 white">
             <h5 className="title">My Account</h5>
             <ul className="list-unstyled">
-              <li> <a href="#"> User Login </a></li>
-              <li> <a href="register.html"> User register </a></li>
+              <li> <Link to = "/Login"> User Login </Link></li>
+              <li> <Link to = "/Register"> User Register </Link></li>
               <li> <a href="#"> Account Setting </a></li>
               <li> <a href="#"> My Orders </a></li>
               <li> <a href="#"> My Wishlist </a></li>

@@ -87,7 +87,7 @@ return (
                   </form>
                   <hr className="dropdown-divider" />
                   <Link to = "/Register" className="dropdown-item">Dont Have account? Sign Up</Link>
-                  <a className="dropdown-item" href="#">Forgot password?</a>
+                  <Link to = "/ForgotAccount" className="dropdown-item">Forgot password?</Link>
                 </div> {/*  dropdown-menu .// */}
               </div>  {/* widget-header .// */}
             </div> {/* col.// */}

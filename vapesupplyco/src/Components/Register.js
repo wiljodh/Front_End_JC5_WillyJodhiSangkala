@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
-class Header extends Component {
+class Register extends Component {
 
 render() {
 
@@ -73,7 +73,7 @@ return (
         <div className="form-group">
           <button type="submit" className="btn btn-primary btn-block"> Create Account</button>
         </div> {/* form-group// */}      
-        <p className="text-center">Have an account? <a href>Log In</a> </p>                                                                 
+        <p className="text-center">Have an account? <Link to = "/Login">Log In</Link> </p>                                                                 
       </form>
     </article>
   </div> {/* card.// */}
@@ -86,4 +86,4 @@ return (
     }
 } 
 
-export default Header;
+export default Register;

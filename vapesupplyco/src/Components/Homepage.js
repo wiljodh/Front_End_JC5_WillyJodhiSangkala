@@ -56,10 +56,10 @@ return (
                   </figcaption>
                 </figure>
                 <figure className="itemside has-bg border-bottom" style={{height: '33%'}}>
-                  <img className="img-bg" src="images/items/2.jpg" height={80} />
+                  <img className="img-bg" src="images/items/3.jpg" height={80} />
                   <figcaption className="p-2">
-                    <h6 className="title">One request, many offers </h6>
-                    <a href="#">Good link</a>
+                    <h6 className="title">AV Mech Mod Brass </h6>
+                    <a href="#">Details</a>
                   </figcaption>
                 </figure>
               </div>
@@ -491,26 +491,6 @@ return (
     </div>{/* container // */}
   </section>
   {/* ========================= SECTION LINKS END.// ========================= */}
-  {/* ========================= SECTION SUBSCRIBE ========================= */}
-  <section className="section-subscribe bg-secondary padding-y-lg">
-    <div className="container">
-      <p className="pb-2 text-center white">Delivering the latest product trends and industry news straight to your inbox</p>
-      <div className="row justify-content-md-center">
-        <div className="col-lg-4 col-sm-6">
-          <form className="row-sm form-noborder">
-            <div className="col-8">
-              <input className="form-control" placeholder="Your Email" type="email" />
-            </div> {/* col.// */}
-            <div className="col-4">
-              <button type="submit" className="btn btn-block btn-warning"> <i className="fa fa-envelope" /> Subscribe </button>
-            </div> {/* col.// */}
-          </form>
-          <small className="form-text text-white-50">We’ll never share your email address with a third-party. </small>
-        </div> {/* col-md-6.// */}
-      </div>
-    </div> {/* container // */}
-  </section>
-  {/* ========================= SECTION SUBSCRIBE END.//========================= */}
 </div>
 
 
