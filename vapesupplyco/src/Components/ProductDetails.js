@@ -53,12 +53,12 @@ return (
                 <aside className="col-sm-6">
                   <article className="card-body">
                     {/* short-info-wrap */}
-                    <h3 className="title mb-3">Original Version of Some product name</h3>
+                    <h3 className="title mb-3">VGOD SaltNic E-Juices</h3>
                     <div className="mb-3"> 
                       <var className="price h3 text-warning"> 
-                        <span className="currency">US $</span><span className="num">1299</span>
+                        <span className="currency">US $</span><span className="num">15.99</span>
                       </var> 
-                      <span>/per kg</span> 
+                      <span>/ per 1 bottle</span> 
                     </div> {/* price-detail-wrap .// */}
                     <dl>
                       <dt>Description</dt>
@@ -150,7 +150,7 @@ return (
               <div className="card-body row">
                 <div className="col-md-12 col-sm-3">
                   <figure className="item border-bottom mb-3">
-                    <a href="#" className="img-wrap"> <img src="images/items/2.jpg" className="img-md" /></a>
+                    <a href="#" className="img-wrap"> <img src="images/items/8.jpg" className="img-md" /></a>
                     <figcaption className="info-wrap">
                       <a href="#" className="title">The name of product</a>
                       <div className="price-wrap mb-3">
