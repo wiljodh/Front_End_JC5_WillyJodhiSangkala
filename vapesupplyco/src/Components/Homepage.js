@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 class Homepage extends Component {
 
 render() {
@@ -45,7 +46,7 @@ return (
                   <img className="img-bg" src="images/items/item-sm.png" />
                   <figcaption className="p-2">
                     <h6 className="title">Vaporesso Swag 80W TC </h6>
-                    <a href="#">Details</a>
+                   <Link to ="/ProductDetails">Details</Link>
                   </figcaption>
                 </figure>
                 <figure className="itemside has-bg border-bottom" style={{height: '33%'}}>
