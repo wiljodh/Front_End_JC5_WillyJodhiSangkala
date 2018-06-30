@@ -28,8 +28,7 @@ return (
         <nav className="mb-3">
           <ol className="breadcrumb">
             <li className="breadcrumb-item"><a href="#">Home</a></li>
-            <li className="breadcrumb-item"><a href="#">Category name</a></li>
-            <li className="breadcrumb-item"><a href="#">Sub category</a></li>
+            <li className="breadcrumb-item"><a href="#">E-Liquids</a></li>
             <li className="breadcrumb-item active" aria-current="page">Items</li>
           </ol> 
         </nav>
@@ -44,9 +43,9 @@ return (
                     </div> {/* slider-product.// */}
                     <div className="img-small-wrap">
                       <div className="item-gallery"> <img src="images/items/1.jpg" /></div>
-                      <div className="item-gallery"> <img src="images/items/2.jpg" /></div>
-                      <div className="item-gallery"> <img src="images/items/3.jpg" /></div>
-                      <div className="item-gallery"> <img src="images/items/4.jpg" /></div>
+                      <div className="item-gallery"> <img src="images/items/1.jpg" /></div>
+                      <div className="item-gallery"> <img src="images/items/1.jpg" /></div>
+                      <div className="item-gallery"> <img src="images/items/1.jpg" /></div>
                     </div> {/* slider-nav.// */}
                   </article> {/* gallery-wrap .end// */}
                 </aside>
@@ -152,9 +151,9 @@ return (
                   <figure className="item border-bottom mb-3">
                     <a href="#" className="img-wrap"> <img src="images/items/8.jpg" className="img-md" /></a>
                     <figcaption className="info-wrap">
-                      <a href="#" className="title">The name of product</a>
+                      <a href="#" className="title">Vaporflask DNA 166</a>
                       <div className="price-wrap mb-3">
-                        <span className="price-new">$280</span> <del className="price-old">$280</del>
+                        <span className="price-new">$400</span>
                       </div> {/* price-wrap.// */}
                     </figcaption>
                   </figure> {/* card-product // */}
@@ -163,9 +162,9 @@ return (
                   <figure className="item border-bottom mb-3">
                     <a className="img-wrap"> <img src="images/items/3.jpg" className="img-md" /></a>
                     <figcaption className="info-wrap">
-                      <a href="#" className="title">The name of product</a>
+                      <a href="#" className="title">AV Mech Mod Brass</a>
                       <div className="price-wrap mb-3">
-                        <span className="price-new">$280</span>
+                        <span className="price-new">$250</span>
                       </div> {/* price-wrap.// */}
                     </figcaption>
                   </figure> {/* card-product // */}
@@ -174,7 +173,7 @@ return (
                   <figure className="item border-bottom mb-3">
                     <a href="#" className="img-wrap"> <img src="images/items/4.jpg" className="img-md" /></a>
                     <figcaption className="info-wrap">
-                      <a href="#" className="title">The name of product</a>
+                      <a href="#" className="title">AV Timekeeper Brass</a>
                       <div className="price-wrap mb-3">
                         <span className="price-new">$280</span>
                       </div> {/* price-wrap.// */}
