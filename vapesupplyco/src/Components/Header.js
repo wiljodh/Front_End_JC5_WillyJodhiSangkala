@@ -13,13 +13,13 @@ return (
         <header className="section-header">
   <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container">
-      <Link to = "/Homepage"className="navbar-brand"><img className="logo" src="images/logos/logo.jpg" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme" /></Link>
+      <Link to = "/" className="navbar-brand"><img className="logo" src="images/logos/logo.jpg" alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme" /></Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarTop">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item"><Link to = "/Homepage" className="nav-link" data-toggle>HOME</Link></li>
+          <li className="nav-item"><Link to = "/" className="nav-link" data-toggle>HOME</Link></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>SHOP</a></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>ABOUT</a></li>
           <li className="nav-item"><a href="#" className="nav-link" data-toggle>CONTACT</a></li>
