@@ -61,7 +61,7 @@ return (
       </section>
       <section className="footer-bottom row border-top-white">
         <div className="col-sm-6"> 
-          <p className="text-white-50"> Made with Vape Supply Co. Team</p>
+          <p className="text-white-50"> Made By Vape Supply Co. Team</p>
         </div>
         <div className="col-sm-6">
           <p className="text-md-right text-white-50">
